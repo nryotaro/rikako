@@ -10,6 +10,7 @@ body {
     font-size: 1.6em;
     font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
     background-color: var(--background-color);
+    min-width: 48rem;
 
 }
 header {
@@ -22,7 +23,6 @@ header > nav > ul {
     display: flex;
     list-style-type: none;
     justify-content: flex-end;
-    padding-left: 0;
 }
 header nav li {
     margin-left: 1rem;
@@ -31,7 +31,33 @@ header nav li {
 
 .contents {
     width: 60%;
-    background-color: blue;
     display: flex;
+    flex-direction: column;
     margin: auto;
+}
+
+h2 {
+    margin-top: 4rem;
+    margin-bottom: 8rem;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer > small {
+    margin-top: 1rem;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer > ul > li {
+    display: flex;
+    margin: 0.4rem;
 }
