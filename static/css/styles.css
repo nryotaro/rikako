@@ -16,18 +16,19 @@ body {
     display: flex;
     flex-direction: column;
 }
-header {
+
+.navigation {
     display: flex;
     margin: 2rem auto 2rem auto;
     justify-content: flex-end;
     width: 80%;
 }
-header > nav > ul {
+.navigation > nav > ul {
     display: flex;
     list-style-type: none;
     justify-content: flex-end;
 }
-header nav li {
+.navigation nav li {
     margin-left: 1rem;
     margin-right: 1rem;
 }

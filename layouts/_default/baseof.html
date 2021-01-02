@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="navigation">
         <nav>
             <ul>
                 <li href="#">About</li>
@@ -28,10 +28,14 @@
         <h2>
             Coda
         </h2>
-        foobar
         {{ block "main" . }}
         {{ end }}
-
+        {{ $paginator := .Paginate (where .Pages "Type" "posts") }}
+        {{ range $paginator.Pages }}
+        {{ .Title }}
+        {{ .Content }}
+        {{ .Permalink }}
+        {{ end }}
     </div>
     <ul class="pagination">
         <li><span class="material-icons">first_page</span></li>
