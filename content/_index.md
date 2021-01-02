@@ -1,2 +1,4 @@
-doge
-aaa
+---
+title: "Posts"
+---
+日記帳
