@@ -30,7 +30,7 @@
         </h2>
         {{ block "main" . }}
         {{ end }}
-        {{ $paginator := .Paginate (where .Pages "Type" "posts") }}
+        {{ $paginator := .Paginate  (where .Pages "Type" "posts")}}
         {{ range $paginator.Pages }}
         {{ .Title }}
         {{ .Content }}
