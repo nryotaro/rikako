@@ -3,15 +3,32 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="/css/styles.css">
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script src="https://kit.fontawesome.com/4e0e0c0a41.js" crossorigin="anonymous"></script>
+    <title>Coda</title>
 </head>
 
 <body>
-    {{ block "main" . }}
-    {{ end }}
+    <header>
+        <nav>
+            <ul>
+                <li href="#">About</li>
+                <li href="#">Posts</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="contents">
+        <div class="title">Coda</div>
+        foobar
+        {{ block "main" . }}
+        {{ end }}
+    </div>
+    <footer>
+
+    </footer>
 </body>
 
 </html>
