@@ -59,8 +59,8 @@ h2 {
 }
 
 .pagination li span {
-    border: 1px solid var(--secondary);
-    color: var(--secondary);
+    border: 1px solid var(--primary);
+    color: var(--primary);
     border-radius: 50%;
     margin-left: 1rem;
     margin-right: 1rem;
