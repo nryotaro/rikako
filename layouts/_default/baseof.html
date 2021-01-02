@@ -17,20 +17,19 @@
 
 <body>
     <header class="navigation">
+        <h2>Coda</h2>
         <nav>
             <ul>
                 <li href="#">About</li>
-                <li href="#">Posts</li>
+                <li href="#">Gallery</li>
             </ul>
         </nav>
     </header>
     <div class="contents">
-        <h2>
-            Coda
-        </h2>
+        <h1>Posts</h1>
         {{ block "main" . }}
         {{ end }}
-        {{ $paginator := .Paginate  (where .Pages "Type" "posts")}}
+        {{ $paginator := .Paginate (where .Pages "Type" "posts")}}
         {{ range $paginator.Pages }}
         {{ .Title }}
         {{ .Content }}
