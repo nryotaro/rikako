@@ -26,14 +26,9 @@
         </nav>
     </header>
     <div class="contents">
-        <h1>Posts</h1>
-        {{ block "main" . }}
-        {{ end }}
-        {{ $paginator := .Paginate (where .Pages "Type" "posts")}}
-        {{ range $paginator.Pages }}
-        {{ .Title }}
+        <h1>{{ .Title }}</h1>
         {{ .Content }}
-        {{ .Permalink }}
+        {{ block "main" . }}
         {{ end }}
     </div>
     <ul class="pagination">

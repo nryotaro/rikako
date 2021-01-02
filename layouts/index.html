@@ -1,5 +1,10 @@
 {{ define "main" }}
 <main>
-    {{ .Content }}
+        {{ $paginator := .Paginate (where .Pages "Type" "posts")}}
+        {{ range $paginator.Pages }}
+        {{ .Title }}
+        {{ .Content }}
+        {{ .Permalink }}
+        {{ end }}
 </main>
 {{ end }}
