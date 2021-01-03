@@ -53,6 +53,8 @@ main {
     width: 60%;
     margin: auto;
     flex-grow: 1;
+    line-height: 3rem;
+    font-size: 2rem;
 }
 
 main h1 {
@@ -61,6 +63,14 @@ main h1 {
     font-size: 4rem;
     font-weight: bold;
 }
+
+main h2 {
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 
 .pagination {
     display: flex;

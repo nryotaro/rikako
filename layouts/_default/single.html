@@ -1,25 +1,8 @@
 {{ define "main" }}
 <main>
     <h1>{{ .Title }}</h1>
-    <span class="date">{{ .PublishDate.Format "January 2, 2006" }}</span>
     <div>
         {{ .Content }}
     </div>
 </main>
-{{ end }}
-
-{{ define "pagination" }}
-<ul class="pagination">
-    {{ with .PrevInSection }}
-    <li>
-        <a href="{{ .URL }}"><span class="material-icons">chevron_left</span></a>
-    </li>
-    {{ end }}
-    {{ with .NextInSection }}
-    <li>
-        <a href="{{ .URL }}"><span class="material-icons">chevron_right</span></a>
-    </li>
-    {{ end }}
-</ul>
-
 {{ end }}
