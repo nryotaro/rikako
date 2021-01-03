@@ -1,5 +1,6 @@
 {{ define "main" }}
 <main>
+    <h1>Posts</h1>
     {{ $paginator := .Paginate (where .Pages "Type" "posts")}}
     {{ range $paginator.Pages }}
     <article>
@@ -19,12 +20,16 @@
     {{ if $paginator.HasPrev }}
     <li>
         <a href="{{ $paginator.First.URL }}"><span class="material-icons">first_page</span></a>
+    </li>
+    <li>
         <a href="{{ $paginator.Prev.URL }}"><span class="material-icons">chevron_left</span></a>
     </li>
     {{ end }}
     {{ if $paginator.HasNext }}
     <li>
         <a href="{{ $paginator.Next.URL }}"><span class="material-icons">chevron_right</span></a>
+    </li>
+    <li>
         <a href="{{ $paginator.Last.URL }}"><span class="material-icons">last_page</span></a>
     </li>
     {{ end }}
