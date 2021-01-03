@@ -102,3 +102,11 @@ footer ul {
 footer > ul > li {
     margin: 0.4rem;
 }
+
+article {
+    margin-top: 3.6rem;
+    margin-bottom: 3.6rem;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+}
