@@ -1,16 +1,14 @@
 {{ define "main" }}
 <main>
-   {{ $paginator := .Paginate (where .Pages "Type" "posts")}}
-   {{ range $paginator.Pages }}
-   <article>
-   {{ .Title }}
-   {{ .Summary }}
-   {{ .Permalink }}
-   {{ .PublishDate.Format "January 2, 2006" }}
-   </article>
-   {{ end }}
-   {{ with $paginator.Next  }}
-       {{ .URL }}
-   {{ end }}
+    {{ $paginator := .Paginate (where .Pages "Type" "posts")}}
+    {{ range $paginator.Pages }}
+    <article>
+        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+        <div class="summary">{{ .Summary }}</div>
+        <div class="article-footer">
+            <span class="date">{{ .PublishDate.Format "January 2, 2006" }}</span>
+        </div>
+    </article>
+    {{ end }}
 </main>
 {{ end }}

@@ -107,6 +107,28 @@ article {
     margin-top: 3.6rem;
     margin-bottom: 3.6rem;
     background-color: white;
-    padding: 2rem;
+    padding: 3rem;
     border-radius: 1rem;
+}
+
+article h3 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+article h3 a {
+    text-decoration: none;
+    color: var(--primary);
+}
+
+article .summary {
+    font-size: 1.8rem;
+    color: var(--secondary);
+}
+
+article .article-footer {
+    margin-top: 2rem;
+}
+article .article-footer .date {
+    color: var(--secondary);
 }
