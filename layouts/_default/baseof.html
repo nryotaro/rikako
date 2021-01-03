@@ -30,6 +30,8 @@
         {{ block "main" . }}
         {{ end }}
     </div>
+    {{ block  "pagination" . }}
+    {{ end }}
     <ul class="pagination">
         <li><span class="material-icons">first_page</span></li>
         <li><span class="material-icons">chevron_left</span></li>
