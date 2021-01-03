@@ -30,7 +30,7 @@
         {{ block "main" . }}
         {{ end }}
     </div>
-    {{ block  "pagination" . }}
+    {{ block "pagination" . }}
     {{ end }}
     <ul class="pagination">
         <li><span class="material-icons">first_page</span></li>
@@ -40,10 +40,14 @@
     </ul>
     <footer>
         <ul>
-            <li><i class="fab fa-github"></i></li>
-            <li><i class="fab fa-linkedin-in"></i></li>
-            <li><i class="fas fa-rss"></i></li>
-            <li class="atcoder">AtCoder</li>
+            <li><a href="https://github.com/nryotaro"><i class="fab fa-github"></i></a></li>
+            <li>
+                <a href="https://www.linkedin.com/in/nakamura-ryotaro/">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li><a href="/index.xml"><i class="fas fa-rss"></i></a></li>
+            <li class="atcoder"><a href="https://atcoder.jp/users/nryotaro">AtCoder</a></li>
         </ul>
         <small>© Nakamura, Ryotaro. All Rights Reserved.</small>
     </footer>
