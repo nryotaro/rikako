@@ -75,7 +75,8 @@ main h2 {
 .pagination {
     display: flex;
     justify-content: center;
-    margin-bottom: 4rem;
+    margin-top: 3.6rem;
+    margin-bottom: 3.6rem;
 }
 
 .pagination li span {
@@ -122,7 +123,6 @@ footer > ul > li a {
 
 article {
     margin-top: 3.6rem;
-    margin-bottom: 3.6rem;
     background-color: white;
     padding: 3rem;
     border-radius: 1rem;
