@@ -1,1 +1,43 @@
-a
+{{ define "styles" }}
+    <link rel="stylesheet" href="/css/gallery.css">
+{{ end }}
+
+{{ define "main" }}
+<main>
+    <h1>Gallery</h1>
+    <div class="gallery">
+    {{ $paginator := .Paginate (where .Pages "Type" "gallery") 4 }}
+    {{ range $paginator.Pages }}
+        <div class="picture">
+            <a href="{{ .Permalink }}"><img src="{{ .Params.imageURL }}" width="100%"/></a>
+            <div class="description">
+                <div class="title">{{.Title}}</div>
+                <div class="summary">{{ .PublishDate.Format "January 2, 2006" }}</div>
+            </div>
+        </div>
+    {{ end }}
+    </div>
+</main>
+{{ end }}
+
+{{ define "pagination" }}
+{{ $paginator := .Paginate (where .Pages "Type" "gallery") 4 }}
+<ul class="pagination">
+    {{ if $paginator.HasPrev }}
+    <li>
+        <a href="{{ $paginator.First.URL }}"><span class="material-icons">first_page</span></a>
+    </li>
+    <li>
+        <a href="{{ $paginator.Prev.URL }}"><span class="material-icons">chevron_left</span></a>
+    </li>
+    {{ end }}
+    {{ if $paginator.HasNext }}
+    <li>
+        <a href="{{ $paginator.Next.URL }}"><span class="material-icons">chevron_right</span></a>
+    </li>
+    <li>
+        <a href="{{ $paginator.Last.URL }}"><span class="material-icons">last_page</span></a>
+    </li>
+    {{ end }}
+</ul>
+{{ end }}
