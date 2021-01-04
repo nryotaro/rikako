@@ -1,0 +1,30 @@
+{{ define "styles" }}
+<link rel="stylesheet" href="/css/gallery/single.css">
+{{ end }}
+
+{{ define "main" }}
+<main>
+    <div class="frame"><img class="image" src="{{ .Params.imageURL }}"></div>
+    <div class="caption">
+        <h1>{{ .Title }}</h1>
+        <div class="date">{{ .PublishDate.Format "January 2, 2006" }}</div>
+        <div class="content">{{ .Content }}</div>
+    </div>
+</main>
+{{ end }}
+
+{{ define "pagination" }}
+<ul class="pagination">
+    {{ with .PrevInSection }}
+    <li>
+        <a href="{{ .URL }}"><span class="material-icons">chevron_left</span></a>
+    </li>
+    {{ end }}
+    {{ with .NextInSection }}
+    <li>
+        <a href="{{ .URL }}"><span class="material-icons">chevron_right</span></a>
+    </li>
+    {{ end }}
+</ul>
+
+{{ end }}

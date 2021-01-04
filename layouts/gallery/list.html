@@ -1,5 +1,5 @@
 {{ define "styles" }}
-    <link rel="stylesheet" href="/css/gallery.css">
+    <link rel="stylesheet" href="/css/gallery/list.css">
 {{ end }}
 
 {{ define "main" }}
@@ -9,10 +9,12 @@
     {{ $paginator := .Paginate (where .Pages "Type" "gallery") 4 }}
     {{ range $paginator.Pages }}
         <div class="picture">
-            <a href="{{ .Permalink }}"><img src="{{ .Params.imageURL }}" width="100%"/></a>
+            <a href="{{ .Permalink }}">
+                <img src="{{ .Params.imageURL }}" width="100%"></img>
+            </a>
             <div class="description">
                 <div class="title">{{.Title}}</div>
-                <div class="summary">{{ .PublishDate.Format "January 2, 2006" }}</div>
+                <div class="date">{{ .PublishDate.Format "January 2, 2006" }}</div>
             </div>
         </div>
     {{ end }}

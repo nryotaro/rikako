@@ -1,0 +1,24 @@
+
+.frame {
+    margin-top: 8rem;
+    width: 100%;
+    text-align: center;
+}
+
+.image {
+    padding: 0.8rem;
+    background-color: white;
+    border-radius: 1rem;
+    text-align: center;
+    width: 100%;
+}
+
+
+main h1 {
+    margin: 2.8rem auto;
+}
+
+main .date {
+    color: var(--secondary);
+    margin-bottom: 2.8rem;
+}
