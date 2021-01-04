@@ -1,3 +1,42 @@
+{{ define "styles" }}
+    <link rel="stylesheet" href="/css/articles.css">
+{{ end }}
+
 {{ define "main" }}
-<main>doge list</main>
+<main>
+    <h1>Posts</h1>
+
+    {{ $paginator := .Paginate (where .Site.RegularPages "Type" "posts")}}
+    {{ range $paginator.Pages }}
+    <article>
+        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+        <div class="summary">{{ .Summary }}</div>
+        <div class="article-footer">
+            <span class="date">{{ .PublishDate.Format "January 2, 2006" }}</span>
+        </div>
+    </article>
+    {{ end }}
+</main>
+{{ end }}
+
+{{ define "pagination" }}
+{{ $paginator := .Paginate (where .Site.RegularPages "Type" "posts")}}
+<ul class="pagination">
+    {{ if $paginator.HasPrev }}
+    <li>
+        <a href="{{ $paginator.First.URL }}"><span class="material-icons">first_page</span></a>
+    </li>
+    <li>
+        <a href="{{ $paginator.Prev.URL }}"><span class="material-icons">chevron_left</span></a>
+    </li>
+    {{ end }}
+    {{ if $paginator.HasNext }}
+    <li>
+        <a href="{{ $paginator.Next.URL }}"><span class="material-icons">chevron_right</span></a>
+    </li>
+    <li>
+        <a href="{{ $paginator.Last.URL }}"><span class="material-icons">last_page</span></a>
+    </li>
+    {{ end }}
+</ul>
 {{ end }}
