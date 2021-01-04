@@ -55,6 +55,7 @@ main {
     flex-grow: 1;
     line-height: 3rem;
     font-size: 2rem;
+    overflow-x: auto;
 }
 
 main h1 {

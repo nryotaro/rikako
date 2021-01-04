@@ -72,3 +72,14 @@ main blockquote {
 main blockquote a {
     color: var(--secondary);
 }
+
+main table {
+    margin: 0 auto;
+    overflow-x: auto;
+    border-top: 0.2rem solid var(--secondary);
+    border-bottom: 0.2rem solid var(--secondary);
+}
+
+main table thead {
+    border-bottom: 0.1rem solid var(--secondary);
+}
