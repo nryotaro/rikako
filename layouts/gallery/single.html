@@ -17,12 +17,12 @@
 <ul class="pagination">
     {{ with .PrevInSection }}
     <li>
-        <a href="{{ .URL }}"><span class="material-icons">chevron_left</span></a>
+        <a href="{{ .RelPermalink }}"><span class="material-icons">chevron_left</span></a>
     </li>
     {{ end }}
     {{ with .NextInSection }}
     <li>
-        <a href="{{ .URL }}"><span class="material-icons">chevron_right</span></a>
+        <a href="{{ .RelPermalink }}"><span class="material-icons">chevron_right</span></a>
     </li>
     {{ end }}
 </ul>

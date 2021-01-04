@@ -63,7 +63,7 @@ main blockquote {
     color: var(--secondary);
     padding-left: 2rem;
     margin: 2rem auto;
-    border-left: 1rem solid var(--tertiary);
+    border-left: 0.4rem solid var(--tertiary);
 }
 main blockquote a {
     color: var(--secondary);

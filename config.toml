@@ -1,4 +1,5 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://nryotaro.dev/"
+languageCode = "ja"
+title = "Coda"
 paginate = 2
+pygmentsUseClasses = true

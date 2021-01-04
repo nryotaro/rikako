@@ -15,6 +15,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit,
 
 ---
 
+$$
+x^2
+$$
+
 sed do eiusmod *tempor* **incididunt** ut labore et dolore magna aliqua.
 **夏海里佳子** 
 
@@ -22,6 +26,11 @@ sed do eiusmod *tempor* **incididunt** ut labore et dolore magna aliqua.
 ![foobar](https://photohito.k-img.com/uploads/photo93/user92824/c/3/c3553bec5c7fc4a220f52308583823fb/c3553bec5c7fc4a220f52308583823fb_m.jpg)
 
 [ジャンヌかわいい](https://files.yande.re/image/5e9fae32d6376e2ab143b33c7241510e/yande.re%20725635%20tagme.jpg)
+
+```python
+def a():
+   return 1 + 2
+```
 
 
 #### h4
