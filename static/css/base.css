@@ -23,6 +23,11 @@ body {
     max-width: 192rem;
 }
 
+a {
+    text-decoration: none;
+    color: var(--primary);
+}
+
 .navigation {
     display: flex;
     margin: 2rem auto 2rem auto;
@@ -35,10 +40,7 @@ body {
     font-weight: bold;
     flex-grow: 1;
 }
-.navigation a {
-    text-decoration: none;
-    color: var(--primary);
-}
+
 .navigation > nav > ul {
     display: flex;
 }
@@ -82,7 +84,6 @@ footer > ul > li {
     margin: 0.4rem;
 }
 footer > ul > li a {
-    text-decoration: none;
     color: var(--secondary);
 }
 
