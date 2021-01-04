@@ -2,8 +2,40 @@
 title: "E Lorem Ipsum"
 date: 2021-01-02T23:33:39+09:00
 ---
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+<!--more-->
+
+blue `All in the golden afternoon`
+
+> all in the golden afternoon. [ジャンヌかわいい](https://files.yande.re/image/5e9fae32d6376e2ab143b33c7241510e/yande.re%20725635%20tagme.jpg)
+
+## h2
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+
+---
+
+sed do eiusmod *tempor* **incididunt** ut labore et dolore magna aliqua.
+**夏海里佳子** 
+
+### h3
+![foobar](https://photohito.k-img.com/uploads/photo93/user92824/c/3/c3553bec5c7fc4a220f52308583823fb/c3553bec5c7fc4a220f52308583823fb_m.jpg)
+
+[ジャンヌかわいい](https://files.yande.re/image/5e9fae32d6376e2ab143b33c7241510e/yande.re%20725635%20tagme.jpg)
+
+
+#### h4
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+
+##### h5
+
+###### h6
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
