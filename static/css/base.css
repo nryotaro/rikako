@@ -35,12 +35,10 @@ body {
     font-weight: bold;
     flex-grow: 1;
 }
-
 .navigation a {
     text-decoration: none;
     color: var(--primary);
 }
-
 .navigation > nav > ul {
     display: flex;
 }
@@ -62,39 +60,6 @@ main h1 {
     margin-bottom: 6rem;
     font-size: 4rem;
     font-weight: bold;
-}
-
-main h2 {
-    font-size: 3rem;
-    font-weight: bolder;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-
-
-.pagination {
-    display: flex;
-    justify-content: center;
-    margin-top: 3.6rem;
-    margin-bottom: 3.6rem;
-}
-
-.pagination li span {
-    border: 1px solid var(--primary);
-    color: var(--primary);
-    border-radius: 50%;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    cursor: pointer;
-}
-
-.pagination span {
-    font-size: 3.6rem;
-    padding: 0.4rem;
-}
-
-.pagination li {
-    display: inline;
 }
 
 footer {
@@ -121,31 +86,27 @@ footer > ul > li a {
     color: var(--secondary);
 }
 
-article {
+.pagination {
+    display: flex;
+    justify-content: center;
     margin-top: 3.6rem;
-    background-color: white;
-    padding: 3rem;
-    border-radius: 1rem;
+    margin-bottom: 3.6rem;
 }
 
-article h3 {
-    font-size: 2.4rem;
-    font-weight: bold;
-    margin-bottom: 2rem;
-}
-article h3 a {
-    text-decoration: none;
+.pagination li span {
+    border: 1px solid var(--primary);
     color: var(--primary);
+    border-radius: 50%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
 }
 
-article .summary {
-    font-size: 1.8rem;
-    color: var(--secondary);
+.pagination span {
+    font-size: 3.6rem;
+    padding: 0.4rem;
 }
 
-article .article-footer {
-    margin-top: 2rem;
-}
-article .article-footer .date {
-    color: var(--secondary);
+.pagination li {
+    display: inline;
 }
