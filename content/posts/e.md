@@ -1,6 +1,6 @@
 ---
 title: "E Lorem Ipsum"
-date: 2021-01-02T23:33:39+09:00
+date: 2020-01-06T23:33:34+09:00
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
