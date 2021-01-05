@@ -1,1 +1,1 @@
-# rikakoyouganainaxa
+# rikako
