@@ -8,7 +8,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit,
 
 blue `All in the golden afternoon`
 
-> all in the golden afternoon. [ジャンヌかわいいジャンヌかわいいジャンヌかわいい](https://photohito.k-img.com/uploads/photo132/user131371/6/4/6493fbd645ab0adcc17578a77e1c549d/6493fbd645ab0adcc17578a77e1c549d_m.jpg)
+> all in the golden afternoon. [かわいい](https://photohito.k-img.com/uploads/photo132/user131371/6/4/6493fbd645ab0adcc17578a77e1c549d/6493fbd645ab0adcc17578a77e1c549d_m.jpg)
 
 ## h2
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -16,7 +16,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit,
 ---
 
 $$
-x^2
+x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2
 $$
 
 sed do eiusmod *tempor* **incididunt** ut labore et dolore magna aliqua.
@@ -37,7 +37,7 @@ def a():
 
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600000|
+| col 3 is      | right-aligned | $160000000000000000000000000000000000000000000000000000000000000|
 
 #### h4
 

@@ -112,3 +112,15 @@ footer > ul > li a {
 .pagination li {
     display: inline;
 }
+
+@media screen and (max-width: 480px) { 
+    body {
+      min-width: 40rem;
+    }
+    .navigation {
+        width: 90%;
+    }
+    main {
+        width: 90%;
+    }
+}
