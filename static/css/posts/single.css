@@ -83,7 +83,7 @@ main table {
 main table thead {
     border-bottom: 0.1rem solid var(--secondary);
 }
-
 main mjx-container {
     overflow-x: auto;
+    overflow-y: hidden;
 }

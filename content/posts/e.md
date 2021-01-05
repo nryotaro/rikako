@@ -16,7 +16,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit,
 ---
 
 $$
-x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2
+
+\begin{align}
+x&=x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2\\\\\
+x&=x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2x^2 x^2 x^2 x^2\\\\\
+\end{align}
 $$
 
 sed do eiusmod *tempor* **incididunt** ut labore et dolore magna aliqua.
@@ -29,7 +33,7 @@ sed do eiusmod *tempor* **incididunt** ut labore et dolore magna aliqua.
 
 ```python
 def a():
-    return 1 + 2
+    return 1 +                                                   2
 ```
 
 
