@@ -9,10 +9,8 @@
     {{ $paginator := .Paginate (where .Pages "Type" "gallery") 4 }}
     {{ range $paginator.Pages }}
         <div class="picture">
-            <a href="{{ .Permalink }}">
-                <img src="{{ .Params.imageURL }}" width="100%"></img>
-            </a>
-            <div class="description">
+            <img src="{{ .Params.imageURL }}" width="100%" height="auto"/>
+            <div class="description" onclick="location.href='{{ .Permalink }}';">
                 <div class="title">{{.Title}}</div>
                 <div class="date">{{ .PublishDate.Format "January 2, 2006" }}</div>
             </div>
