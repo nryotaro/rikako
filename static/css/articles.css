@@ -16,6 +16,11 @@ article .summary {
     color: var(--secondary);
 }
 
+article .summary a {
+    color: var(--secondary);
+    text-decoration: underline;
+}
+
 article .article-footer {
     margin-top: 2rem;
 }
