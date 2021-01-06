@@ -7,10 +7,11 @@
 
 .entry h2 {
     font-weight: bold;
-    font-size: 2.8rem;
+    font-size: 2rem;
     margin-bottom: 0.8rem;
 }
 
 main .entry .date {
     color: var(--secondary);
+    font-size: 1.8rem;
 }
