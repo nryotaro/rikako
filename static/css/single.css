@@ -3,6 +3,10 @@ main .highlight {
     scrollbar-width: thin;
 }
 
+main p {
+    margin: 2rem 0;
+}
+
 main h2,h3,h4,h5,h6 {
     font-weight: bold;
 }
@@ -50,6 +54,7 @@ main img {
 
 main hr {
     border: 0.1rem solid var(--secondary);
+    margin: 2rem auto;
 }
 
 main code {
@@ -81,4 +86,14 @@ main mjx-container {
     padding-top: 1rem;
     overflow-x: auto;
     overflow-y: hidden;
+}
+
+main ul {
+    list-style-type: circle;
+    padding-left: 2rem;
+}
+main ol {
+    list-style-type: decimal;
+    padding-left: 3.6rem;
+    counter-reset: item;
 }
