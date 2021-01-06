@@ -4,7 +4,9 @@
 
 {{ define "main" }}
 <main>
-    <div class="frame"><img class="image" src="{{ .Params.imageURL }}"></div>
+    <div class="frame">
+        <img class="image" src="{{ .Params.imageURL }}" width="100%" height="auto">
+    </div>
     <div class="caption">
         <h1>{{ .Title }}</h1>
         <div class="date">{{ .PublishDate.Format "January 2, 2006" }}</div>
